@@ -1,0 +1,25 @@
+package baiTap43;
+import java.io.Scanner;
+
+public class sinhVien {
+	private String maSinhVien;
+	private String hoTen;
+	private String diaChi;
+	private int soDienThoai;
+	
+	public sinhVien() {
+	}
+	}
+	
+	public sinhVien(String maSinhVien, String hoTen, String diaChi, int soDienThoai) {
+		super();
+		this.maSinhVien = maSinhVien;
+		this.hoTen = hoTen;
+		this.diaChi = diaChi;
+		this.soDienThoai = soDienThoai;
+	}
+
+	
+	
+	
+}

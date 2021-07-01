@@ -1,0 +1,31 @@
+package baiTap41;
+
+
+import java.io.File;
+ 
+public class listDR {
+	 
+	    public static void main(String[] args) {
+	    	String[] dirL;
+	    	
+	        File dirFile = new File("C:\\Users\\Quan\\Desktop\\my-app");
+	        File[] listFile = dirFile.listFiles();
+	        
+	        for(File dir : listFile) {
+	        	if(dirFile.isDirectory() == true){
+	        		System.out.println("DR :" + dir.getAbsolutePath());
+	        	}
+	        }
+	        System.out.println("------------------");
+	        String[] nameFile = dirFile.list();
+	        
+	        for(String path : nameFile) {
+	        	if(dirFile.isDirectory() == true)
+	        	{
+	        	System.out.println(" file " + path);
+	        	}
+	        }
+	        
+	        
+	 }
+}

@@ -1,0 +1,13 @@
+package baitap7;
+import java.util.Scanner;
+
+public class sinhVien {
+	private int maSinhVien;
+	private String hoTen;
+	private String diaChi;
+	private int soDienThoai;
+	
+	Scanner sc = new Scanner(System.in);
+	
+	
+}

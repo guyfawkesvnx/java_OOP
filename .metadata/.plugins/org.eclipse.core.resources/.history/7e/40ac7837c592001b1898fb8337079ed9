@@ -1,0 +1,7 @@
+package baiTap43;
+
+public class sinhVien {
+	private String maSinhVien;
+	private String hoTen;
+	private String diaChi;
+}

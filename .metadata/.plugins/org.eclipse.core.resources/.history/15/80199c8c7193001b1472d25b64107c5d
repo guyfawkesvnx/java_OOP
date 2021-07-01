@@ -1,0 +1,39 @@
+package baiTap43;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class mainSinhVien1 {
+
+	
+		static void nhapsv(sinhVien1 sv1) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Nhap ma so sinh vien :");
+		sv1.setMaSinhVien(sc.nextLine());
+		
+		System.out.println("Nhap ho ten sinh vien :");
+		sv1.setHoTen(sc.nextLine());
+		
+		System.out.println("Nhap dia chi sinh vien :");
+		sv1.setDiaChi(sc.nextLine());
+		
+		System.out.println("Nhap so dien thoai :");
+		sv1.setSoDienThoai(sc.nextInt());
+		
+		sc.close();
+	}
+		
+	public static void main(String[] agrs) {
+		int sosv = 0;
+		System.out.println("Nhap so sinh vien :");
+		sosv = sc.nextInt();
+		
+		try {
+			FileOutputStream datasv = new FileOutputStream("C:\\test\\data.dat");
+			
+		}catch (IOException ex) {
+		    ex.printStackTrace();
+		}
+	}
+}

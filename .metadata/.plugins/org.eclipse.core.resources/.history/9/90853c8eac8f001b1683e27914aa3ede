@@ -1,0 +1,8 @@
+package baitap7;
+
+public class sinhVien {
+	private int maSinhVien;
+	private String hoTen;
+	private diaChi;
+	private int soDienThoai = 7;
+}

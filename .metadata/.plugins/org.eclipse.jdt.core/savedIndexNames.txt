@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\Quan\Desktop\DEV HDT java\java\.metadata\.plugins\org.eclipse.jdt.core
+2103231971.index
+2951437283.index
+3605627668.index
+1131115296.index
+1067094681.index

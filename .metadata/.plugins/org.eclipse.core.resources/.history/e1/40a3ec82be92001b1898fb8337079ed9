@@ -1,0 +1,21 @@
+package baiTap41;
+
+
+import java.io.File;
+import java.util.Date;
+ 
+public class listDR {
+	 
+	    public static void main(String[] args) {
+	
+	        File dirFile = new File("C:/test");
+	        File[] listFile = dirFile.listFiles();
+	        String[] dirF = new Array[];
+	        for(File dir : listFile) {
+	        	if(dir == dirFile.isDirectory()){
+	        		
+	        	}
+	        }
+	        
+	 }
+}

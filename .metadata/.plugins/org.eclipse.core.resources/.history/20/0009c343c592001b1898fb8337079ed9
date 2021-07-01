@@ -1,0 +1,13 @@
+package baiTap43;
+import java.ulti.Scanner;
+
+public class sinhVien {
+	private String maSinhVien;
+	private String hoTen;
+	private String diaChi;
+	private int soDienThoai;
+	Scanner sc = new Scanner(System.in);
+	
+	
+	
+}
